@@ -32,5 +32,13 @@ td {
 
 dialog > div:first-child {
   position: absolute;
-  right: 0.5rem; 
+  right: 0.5rem;
+  top: 0;
+}
+
+dialog > div:first-child button {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+
 }

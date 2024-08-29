@@ -798,8 +798,8 @@ for (const restaurant of restaurants) {
 
     rivi.addEventListener('click', function () {
       const korostetut = document.querySelectorAll('.highlight');
-      for (const element of korostetut) {
-        element.classList.remove('highlight');
+      for (const korostettu of korostetut) {
+        korostettu.classList.remove('highlight');
       }
 
       rivi.classList.add('highlight');
