@@ -14,11 +14,12 @@
   <ul>
     <!-- add todo list conent here -->
   </ul>
-  <dialog>
+  <dialog id="todo-dialog">
     <h2>Add Todo Item</h2>
-    <form>
-      <input type="text" placeholder="Add todo item here" />
-      <button type="submit">Add</button>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Add todo item here" required/>
+      <button type="submit">Save</button>
+      <button type="button" id="close-dialog">Cancel</button>
     </form>
   </dialog>
   <button class="add-btn">Add Todo Item</button>
